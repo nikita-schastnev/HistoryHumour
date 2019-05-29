@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616455364928",
+    "firebase_url": "https://history-humour.firebaseio.com",
+    "project_id": "history-humour",
+    "storage_bucket": "history-humour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616455364928:android:ebd3c2b3cec8af97",
+        "android_client_info": {
+          "package_name": "com.example.nik_schastnev.historyhumour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616455364928-n39dv6mthuekhbtn7rf1tsoqufb60a66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nik_schastnev.historyhumour",
+            "certificate_hash": "25ec3c35ff62b01938696bc47c25bbc9679bd216"
+          }
+        },
+        {
+          "client_id": "616455364928-7uc9v5dlhnvbmmh56eb6nv4gs3gu7po0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaZ2SG_Mvo8eyILK_a6NnYMHUojeXsiKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616455364928-7uc9v5dlhnvbmmh56eb6nv4gs3gu7po0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

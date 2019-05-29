@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".new_time.NewTimeActivity"
+    tools:showIn="@layout/activity_new_time">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="7">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="toNewTimeRussiaActivity">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="@dimen/rubrics_margin"
+                    android:contentDescription="@string/new_time_russia"
+                    android:src="@drawable/ic_new_time_russia"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/rubrics_margin"
+                    android:text="@string/new_time_russia"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorDark"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <View android:layout_width="match_parent" android:layout_height="2dp" android:background="#50707070"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="toNewTimeEuropeActivity">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="@dimen/rubrics_margin"
+                    android:contentDescription="@string/new_time_europe"
+                    android:src="@drawable/ic_new_time_europe"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/rubrics_margin"
+                    android:text="@string/new_time_europe"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorDark"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <View android:layout_width="match_parent" android:layout_height="2dp" android:background="#50707070"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="toNewTimeUsaActivity">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_margin="@dimen/rubrics_margin"
+                    android:contentDescription="@string/new_time_usa"
+                    android:src="@drawable/ic_new_time_usa"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/rubrics_margin"
+                    android:text="@string/new_time_usa"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorDark"/>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <View android:layout_width="match_parent" android:layout_height="2dp" android:background="#50707070"/>
+
+    </TableLayout>
+
+</ScrollView>

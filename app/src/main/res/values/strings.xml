@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">History Humour</string>
+
+    <string name="navigation_drawer_open">Открыть</string>
+    <string name="navigation_drawer_close">Закрыть</string>
+
+    <string name="nav_header_title">History Humour</string>
+    <string name="nav_header_desc">Меню</string>
+
+    <string name="menu_rubrics">Рубрики</string>
+    <string name="menu_news">Новости</string>
+    <string name="menu_profile">Мой профиль</string>
+    <string name="menu_best">Лучшее</string>
+    <string name="menu_send">Предложить запись</string>
+    <string name="menu_donate">Поддержать проект</string>
+
+    <string name="rubrics_antiquity">Античность</string>
+    <string name="rubrics_middle_ages">Средневековье</string>
+    <string name="rubrics_new_time">Новое время</string>
+    <string name="rubrics_twentieth">XX век</string>
+    <string name="rubrics_twenty_first">XXI век</string>
+    <string name="rubrics_others">Разное</string>
+
+    <string name="title_activity_main">Рубрики</string>
+    <string name="title_activity_antiquity">Античность</string>
+    <string name="title_activity_middle_ages">Средневековье</string>
+    <string name="title_activity_new_time">Новое время</string>
+    <string name="title_activity_twentieth">XX век</string>
+    <string name="title_activity_twenty_first">XXI век</string>
+    <string name="title_activity_others">Разное</string>
+
+    <string name="title_activity_news">Новости</string>
+    <string name="title_activity_profile">Мой профиль</string>
+
+    <string name="antiquity_eqypt">Древний Египет</string>
+    <string name="antiquity_greece">Древняя Греция</string>
+    <string name="antiquity_rome">Древний Рим</string>
+
+    <string name="middle_ages_rus">Русь</string>
+    <string name="middle_ages_europe">Зарубежная Европа</string>
+    <string name="middle_ages_asia">Азия</string>
+
+    <string name="new_time_colonization">Колонизация</string>
+    <string name="new_time_russia">Российская империя</string>
+    <string name="new_time_europe">Европа</string>
+    <string name="new_time_usa">США</string>
+    <string name="new_time_asia">Азиатский регион</string>
+
+    <string name="twentieth_wars">Мировые войны</string>
+    <string name="twentieth_communism">Коммунизм</string>
+    <string name="twentieth_second_half">2-я половина XX века</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_in">Авторизация</string>
+    <string name="title_activity_ancient_egypt">Древний Египет</string>
+    <string name="title_activity_ancient_greece">Древняя Греция</string>
+    <string name="title_activity_ancient_rome">Древний Рим</string>
+    <string name="title_activity_middle_ages_rus">Русь</string>
+    <string name="title_activity_middle_ages_asia">Азия</string>
+    <string name="title_activity_middle_ages_europe">Зарубежная Европа</string>
+    <string name="title_activity_new_time_europe">Европа</string>
+    <string name="title_activity_new_time_russia">Российская империя</string>
+    <string name="title_activity_new_time_usa">США</string>
+    <string name="title_activity_communism">Коммунизм</string>
+    <string name="title_activity_world_wars">Мировые войны</string>
+    <string name="title_activity_second_half">2-я половина XX века</string>
+
+    <string name="title_fragment_news">Новости</string>
+    <string name="description_fragment_news">В данном разделе будет появляться информация обо всех
+        обновлениях и изменениях в приложении.</string>
+    <string name="date_v01_fragment_news">31.05.19</string>
+    <string name="update_v01_fragment_news">  —  Обновление приложения v0.1</string>
+    <string name="update_title_v01_fragment_news">В версии v0.1 были добавлены:</string>
+    <string name="update_first_v01_fragment_news">• Приложение с выдвигающейся шторкой, в которой
+        находится 5 основных вкладок.</string>
+    <string name="update_second_v01_fragment_news">• 6 исторических рубрик, в которых находяться
+        посты, разбитые на соответствующие подкатегории.</string>
+    <string name="update_third_v01_fragment_news">• Раздел личного профиля пользователя.</string>
+    <string name="update_fourth_v01_fragment_news">• Выборка лучших постов от редакции.</string>
+
+    <string name="title_fragment_profile">Мой профиль</string>
+    <string name="description_fragment_profile">Для того, чтобы зайти в свой профиль, нужно
+        авторизоваться через соцсети.</string>
+    <string name="google_fragment_profile">Google</string>
+
+    <string name="title_fragment_send">Предложить запись</string>
+    <string name="description_fragment_send">Если у вас появилось желание поделиться интересной
+        записью, мемом или статьей, это можно сделать прямо тут.</string>
+    <string name="label_title_fragment_profile">Название поста:</string>
+    <string name="label_description_fragment_profile">Описание:</string>
+    <string name="btn_fragment_profile">Отправить</string>
+
+    <string name="title_post_list">Заголовок</string>
+    <string name="description_post_list">Описание</string>
+    <string name="image_post_list">Изображение поста</string>
+    <string name="author_post_list">Автор:</string>
+    <string name="source_post_list">Источник:</string>
+
+</resources>

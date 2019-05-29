@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nik_schastnev.historyhumour">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".twentieth.SecondHalfActivity"
+            android:label="@string/title_activity_second_half"
+            android:parentActivityName=".twentieth.TwentiethActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.twentieth.TwentiethActivity" />
+        </activity>
+        <activity
+            android:name=".twentieth.WorldWarsActivity"
+            android:label="@string/title_activity_world_wars"
+            android:parentActivityName=".twentieth.TwentiethActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.twentieth.TwentiethActivity" />
+        </activity>
+        <activity
+            android:name=".twentieth.CommunismActivity"
+            android:label="@string/title_activity_communism"
+            android:parentActivityName=".twentieth.TwentiethActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.twentieth.TwentiethActivity" />
+        </activity>
+        <activity
+            android:name=".new_time.NewTimeUsaActivity"
+            android:label="@string/title_activity_new_time_usa"
+            android:parentActivityName=".new_time.NewTimeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.new_time.NewTimeActivity" />
+        </activity>
+        <activity
+            android:name=".new_time.NewTimeRussiaActivity"
+            android:label="@string/title_activity_new_time_russia"
+            android:parentActivityName=".new_time.NewTimeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.new_time.NewTimeActivity" />
+        </activity>
+        <activity
+            android:name=".new_time.NewTimeEuropeActivity"
+            android:label="@string/title_activity_new_time_europe"
+            android:parentActivityName=".new_time.NewTimeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.new_time.NewTimeActivity" />
+        </activity>
+        <activity
+            android:name=".middle_ages.MiddleAgesEuropeActivity"
+            android:label="@string/title_activity_middle_ages_europe"
+            android:parentActivityName=".middle_ages.MiddleAgesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.middle_ages.MiddleAgesActivity" />
+        </activity>
+        <activity
+            android:name=".middle_ages.MiddleAgesAsiaActivity"
+            android:label="@string/title_activity_middle_ages_asia"
+            android:parentActivityName=".middle_ages.MiddleAgesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.middle_ages.MiddleAgesActivity" />
+        </activity>
+        <activity
+            android:name=".middle_ages.MiddleAgesRusActivity"
+            android:label="@string/title_activity_middle_ages_rus"
+            android:parentActivityName=".middle_ages.MiddleAgesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.middle_ages.MiddleAgesActivity" />
+        </activity>
+        <activity
+            android:name=".antiquity.AncientRomeActivity"
+            android:label="@string/title_activity_ancient_rome"
+            android:parentActivityName=".antiquity.AntiquityActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.antiquity.AntiquityActivity" />
+        </activity>
+        <activity
+            android:name=".antiquity.AncientGreeceActivity"
+            android:label="@string/title_activity_ancient_greece"
+            android:parentActivityName=".antiquity.AntiquityActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.antiquity.AntiquityActivity" />
+        </activity>
+        <activity
+            android:name=".antiquity.AncientEgyptActivity"
+            android:label="@string/title_activity_ancient_egypt"
+            android:parentActivityName=".antiquity.AntiquityActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.antiquity.AntiquityActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".new_time.NewTimeActivity"
+            android:label="@string/title_activity_new_time"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".antiquity.AntiquityActivity"
+            android:label="@string/title_activity_antiquity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".middle_ages.MiddleAgesActivity"
+            android:label="@string/title_activity_middle_ages"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".twentieth.TwentiethActivity"
+            android:label="@string/title_activity_twentieth"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".twenty_first.TwentyFirstActivity"
+            android:label="@string/title_activity_twenty_first"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".others.OthersActivity"
+            android:label="@string/title_activity_others"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.nik_schastnev.historyhumour.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
